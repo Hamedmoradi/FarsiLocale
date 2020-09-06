@@ -1,15 +1,12 @@
-import java.math.BigDecimal;
-import java.text.DecimalFormat;
-import java.text.DecimalFormatSymbols;
+
 import java.text.NumberFormat;
-import java.util.Currency;
 import java.util.Locale;
 
-public class asd {
+public class FarsiLocale {
 public static void main(String[] args) {
 	Locale locale = new Locale.Builder()
 			                .setLanguage("fa")
-			                .setRegion("IRAN")
+			                .setRegion("CA")
 			                .setVariant("POSIX")
 			                .setScript("Latn")
 			                .build();
